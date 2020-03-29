@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Sen:400,700&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/video.css");
+
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;     
+  margin: 0px ;
+
+}
+h1, h2, h3 {
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.typeform-widget{
+  margin-top:50px;
+}
+

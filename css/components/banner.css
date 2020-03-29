@@ -1,0 +1,49 @@
+.banner{
+	background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 90%), url(../../images/background.jpeg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: top;
+
+}
+.banner h1 {
+  color: white;
+    font-size: 50px;
+    position: relative;
+    top: -154px;
+    left: -213px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  opacity: 0.8;
+}
+.banner img{
+	width:250px;
+	height: 125px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	position: relative;
+    top: -152px;
+    left: -268px;
+}
+
+.banner a{
+
+	background-color: black;
+	padding: 15px 20px;
+	border-radius: 6px;
+	color: #2DB4FC;
+	font-weight: bold;
+	font-style: unset;
+	font-family: 'Libre Baskerville', serif;
+	position: relative;
+    bottom: -126px;
+    left: -191px;
+}
+}
